@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portofolio marcho malona hutahaean</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- remixons start -->
+     <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <!-- remixons end -->
+    <link />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="cover cover-left"></div>
+      <div class="cover cover-right turn"></div>
+
+      <div class="book">
+        <!-- profile page-->
+        <div class="book-page page-left">
+          <div class="profile-page">
+            <img src="img/logo mcd.png" alt="" />
+            <h1>Menu <span>McDonald's</span></h1>
+            <p>
+              Nikmati dan rasakan varian menu terbaik dari kami McDonald dan dapatkan kebahagian dengan makin kenal makin sayang!!
+            </p>
+
+            <div class="btn-box">
+              
+                
+              
+              <a href="#" class="btn contact-me"></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Page 1 & 2-->
+        <div class="book-page page-right " id="turn-1">
+          <!--page work experience-->
+          <div class="page-front">
+            <div id="cart-icon">
+              <i class='bx bx-shopping-bag' ></i>
+              <span class="cart-item-count">0</span>
+            </div>
+
+            <div class="cart">
+            <h2 class="cart-title">Your cart</h2>
+            <div class="cart-content">
+              <!-- <div class="cart-box">
+                <img src="img/Cheeseburger Deluxe.webp" class="cart-img">
+                <div class="cart-detail">
+                  <h2 class="cart-product-title">King Burger Cheese</h2>
+                  <span class="cart-price">Rp15.000</span>
+                  <div class="cart-quantity">
+                    <button id="decrement">-</button>
+                    <span class="number">1</span>
+                    <button id="increment">+</button>
+                  </div>
+                </div>
+                <i class="ri-delete-bin-6-line cart-remove"></i>
+              </div> -->
+            </div>
+            <div class="total">
+              <div class="total-title">Total</div>
+              <div class="total-price">Rp.0</div>
+            </div>
+            <button class="btn-buy">Buy Now</button>
+            <i class="ri-close-line" id="cart-close"></i>
+          </div>
+
+          <section class="shop">
+            <h1 class="section-title">Menu Burger <span>McDonald's</span></h1>
+            <div class="product-content">
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Cheeseburger Deluxe.webp">
+                </div>
+                <h2 class="product-title">Cheeseburger Deluxe</h2>
+                <p>Dua lapis daging sapi gurih disajikan dengan saus spesial, selada segar, keju, acar timun, bawang, diapit roti bertabur wijen</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Cheeseburger.webp">
+                </div>
+                <h2 class="product-title">Cheeseburger</h2>
+                <p>Roti burger, daging sapi, keju, saus tomat, acar, potongan bawang dan mustard.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+
+
+            </div>
+
+            <span class="number-page">1</span>
+
+            <!-- Next Button-->
+            <span class="nextprev-btn" data-page="turn-1">
+              <i class="bx bx-chevron-right"></i>
+            </span>
+          </div>
+
+          <!--page Lanjutan menu burger-->
+          <div class="page-back">
+          
+           <div class="product-content">
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Big Mac.webp">
+                </div>
+                <h2 class="product-title">Big Mac®</h2>
+                <p>Burger Ikonik McDonald's. Dua lapis daging sapi gurih disajikan dengan saus spesial, selada segar, keju, acar timun, bawang, diapit roti bertabur wijen</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Beef Burger Deluxe.webp">
+                </div>
+                <h2 class="product-title">Beef Burger Deluxe</h2>
+                <p>Burger dengan 100% daging sapi Australia dengan selada segar, tomat, acar timun, potongan bawang bombai dan mustard.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Double Cheesburger.webp">
+                </div>
+                <h2 class="product-title">Double Cheesburger</h2>
+                <p>Perpaduan roti burger dengan 2 Lapisan daging gurih dan 2 lapisan keju disajikan dengan saus tomat, acar, potongan bawang dan mustard.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Triple Cheeseburger.webp">
+                </div>
+                <h2 class="product-title">Triple Cheeseburger</h2>
+                <p>Perpaduan roti burger dengan 3 lapisan daging gurih berasal dari 100% daging sapi Australia dan 3 lapis keju, saus tomat, acar, potongan bawang dan mustard.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+            </div>
+
+            <span class="number-page">2</span>
+
+            <!-- prev Button-->
+            <span class="nextprev-btn back" data-page="turn-1">
+              <i class="bx bx-chevron-left"></i>
+            </span>
+          </div>
+        </div>
+
+        <!--page 3 & 4 -->
+        <div class="book-page page-right" id="turn-2">
+          <!-- Menu Burger 3-->
+          <div class="page-front">
+            <div class="product-content">
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Beef Burger.webp">
+                </div>
+                <h2 class="product-title">Beef Burger</h2>
+                <p>Roti burger, 100% daging sapi, saus tomat, acar timun, potongan bawang dan mustard.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Paket HeBat McSpaghetti.png">
+                </div>
+                <h2 class="product-title">Paket HeBat McSpaghetti</h2>
+                <p>Pasta spaghetti dengan saus bolognaise yang lengkap dengan daging sapi dan taburan keju parut dan Fruit Tea Lemon (S)</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Paket HeBat-Beef Burger Deluxe.png">
+                </div>
+                <h2 class="product-title">Paket HeBat-Beef Burger Deluxe</h2>
+                <p>Paket HeBat (Hemat Banget) Beef Burger Deluxe. Burger dengan 100% daging sapi Australia dengan selada segar, tomat, acar timun, potongan bawang bombai dan mustard. Lengkap dengan small french fries dan small drink</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Beef Yakiniku Tamago Burger.png">
+                </div>
+                <h2 class="product-title">Beef Yakiniku Tamago Burger</h2>
+                <p>Burger dengan daging sapi asli dilengkapi saus yakiniku dengan kombinasi nori (rumput laut) dan irisan kol, ditambah nikmatnya telur yang disajikan dalam setangkup roti lembut.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+            </div>
+
+            <span class="number-page">3</span>
+
+            <!-- Next Button-->
+            <span class="nextprev-btn" data-page="turn-2">
+              <i class="bx bx-chevron-right"></i>
+            </span>
+          </div>
+
+          <!-- page menu sarapan MCD-->
+          <div class="page-back">
+            <h1 class="section-title">Menu Sarapan pagi <span>McDonald's</span></h1>
+            <div class="product-content">
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Egg & Cheese Muffin.png">
+                </div>
+                <h2 class="product-title">Egg & Cheese Muffin</h2>
+                <p>Perpaduan scrambled egg dan keju gurih dalam setangkup English Muffin hangat. Tersedia dari jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Chicken Muffin.webp">
+                </div>
+                <h2 class="product-title">Chicken Muffin</h2>
+                <p>Setangkup English muffin hangat dilapis saus mayonais dengan daging ayam olahan yang digoreng dengan sempurna. Tersedia dari jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+
+
+            </div>
+
+            <!-- number page -->
+            <span class="number-page">4</span>
+
+            <!-- prev Button-->
+            <span class="nextprev-btn back" data-page="turn-2">
+              <i class="bx bx-chevron-left"></i>
+            </span>
+          </div>
+        </div>
+
+        <!-- page 5 & 6 -->
+        <div class="book-page page-right" id="turn-3">
+          <!-- page 5 lanjutan sarapan pagi-->
+          <div class="page-front">
+            <div class="product-content">
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Sausage McMuffin.webp">
+                </div>
+                <h2 class="product-title">Sausage McMuffin</h2>
+                <p>English muffin disajikan dengan sosis ayam yang gurih dan selembar keju bernutrisi. Tersedia dari jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Egg McMuffin.webp">
+                </div>
+                <h2 class="product-title">Egg McMuffin</h2>
+                <p>English muffin hangat yang disajikan dengan daging ayam asap, telur, dan keju bernutrisi. Tersedia dari jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Chicken Muffin With Egg.webp">
+                </div>
+                <h2 class="product-title">Chicken Muffin With Egg</h2>
+                <p>Setangkup English muffin hangat dilapisi dengan saus mayonais, daging ayam olahan yang digoreng sempurna, telur, dan keju. Tersedia dari jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Sausage McMuffin with Egg.webp">
+                </div>
+                <h2 class="product-title">Sausage McMuffin with Egg</h2>
+                <p>Perpaduan klasik english muffin, sosis ayam khas McDonald's, telur, dan selembar keju bernutrisi. Tersedia dari jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Number page -->
+            <span class="number-page">5</span>
+
+            <!-- Next Button-->
+            <span class="nextprev-btn" data-page="turn-3">
+              <i class="bx bx-chevron-right"></i>
+            </span>
+          </div>
+
+          <!-- page 6 -->
+          <div class="page-back">
+            <div class="product-content">
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Sausage Wrap.webp">
+                </div>
+                <h2 class="product-title">Sausage Wrap</h2>
+                <p>Perpaduan sosis ayam, scrambled egg, dan keju gurih dalam balutan tortilla yang lembut. Tersedia dari jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Big Breakfast.webp">
+                </div>
+                <h2 class="product-title">Big Breakfast</h2>
+                <p>Perpaduan English Muffin panggang yang disajikan dengan sosis ayam gurih, renyahnya Hashbrown serta lembutnya scrambled egg. Tersedia dari jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Breakfast Wrap.webp">
+                </div>
+                <h2 class="product-title">Breakfast Wrap</h2>
+                <p>Paduan daging ayam asap, scrambled egg, dan keju gurih dalam balutan tortilla yang lembut, tersedia jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Hotcakes 3 pcs.webp">
+                </div>
+                <h2 class="product-title">Hotcakes 3 pcs</h2>
+                <p>3 Panekuk lembut dan hangat berlumur sirup maple dan mentega gurih.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- number page -->
+            <span class="number-page">6</span>
+
+            <!-- prev Button-->
+            <span class="nextprev-btn back" data-page="turn-3">
+              <i class="bx bx-chevron-left"></i>
+            </span>
+
+            <a href="#" class="back-profile">
+              
+            </a>
+          </div>
+        </div>
+        <!-- page 7 & 8 -->
+  <div class="book-page page-right" id="turn-4">
+  <!-- halaman 7 -->
+  <div class="page-front">
+    <div class="product-content">
+      <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Hotcakes 2 pcs.webp">
+                </div>
+                <h2 class="product-title">Hotcakes 2 pcs</h2>
+                <p>2 Panekuk lembut dan hangat berlumur sirup maple dan mentega gurih.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Hashbrown.webp">
+                </div>
+                <h2 class="product-title">Hashbrown</h2>
+                <p>otongan kentang gurih yang digoreng keemasan. tersedia jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Nasi Uduk McD.webp">
+                </div>
+                <h2 class="product-title">Nasi Uduk McD</h2>
+                <p>Nasi Uduk gurih dengan sambal terasi, scrambled egg, bawang goreng dan makin lengkap dengan suwiran ayam.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Bubur Ayam McD.webp">
+                </div>
+                <h2 class="product-title">Bubur Ayam McD</h2>
+                <p>Bubur ayam klasik disajikan dengan seledri dan bawang goreng renyah, tersedia jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+    </div>
+
+    <span class="number-page">7</span>
+    <span class="nextprev-btn" data-page="turn-4">
+      <i class="bx bx-chevron-right"></i>
+    </span>
+  </div>
+
+  <!-- halaman 8 -->
+  <div class="page-back">
+    <h1 class="section-title">Menu Ayam <span>McDonald's</span></h1>
+    <div class="product-content">
+      <div class="product-box">
+        <div class="img-box">
+          <img src="img/Paket HeBat - Chicken Burger Deluxe.png">
+        </div>
+        <h2 class="product-title">Paket HeBat - Chicken Burger Deluxe</h2>
+        <p>Paket HeBat (Hemat Banget) Chicken Burger Deluxe. Burger ayam renyah yang disajikan dengan irisan selada segar dan tomat. Lengkap dengan small french fries dan small drink</p>
+        <div class="price-and-cart">
+        <span class="price">Rp30.000</span>
+         <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+      </div>
+
+      <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Paket HeBat - Korean Soy Carlic Wings.png">
+                </div>
+                <h2 class="product-title">Paket HeBat - Korean Soy Carlic Wings</h2>
+                <p>Bubur ayam klasik disajikan dengan seledri dan bawang goreng renyah, tersedia jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp25.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+    </div>
+
+    <span class="number-page">8</span>
+    <span class="nextprev-btn back" data-page="turn-4">
+      <i class="bx bx-chevron-left"></i>
+    </span>
+  </div>
+</div>
+        <!-- page 9 & 10 -->
+<div class="book-page page-right" id="turn-5">
+  <!-- halaman 9 -->
+  <div class="page-front">
+    <div class="product-content">
+      <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Paket HeBat McSpagHetti Ayam McD (Krispy).png">
+                </div>
+                <h2 class="product-title">Paket HeBat McSpagHetti Ayam McD (Krispy)</h2>
+                <p>2 Panekuk lembut dan hangat berlumur sirup maple dan mentega gurih.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Paket HeBat McSpaghetti Ayam McD (Spicy).png">
+                </div>
+                <h2 class="product-title">Paket HeBat McSpaghetti Ayam McD (Spicy)</h2>
+                <p>otongan kentang gurih yang digoreng keemasan. tersedia jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/Korean Soy Garlic Wings - A la Carte 6pcs.webp">
+                </div>
+                <h2 class="product-title">Korean Soy Garlic Wings - A la Carte 6pcs</h2>
+                <p>Nasi Uduk gurih dengan sambal terasi, scrambled egg, bawang goreng dan makin lengkap dengan suwiran ayam.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/PaNas Wings Korean Soy Garlic.webp">
+                </div>
+                <h2 class="product-title">PaNas Wings Korean Soy Garli</h2>
+                <p>Bubur ayam klasik disajikan dengan seledri dan bawang goreng renyah, tersedia jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+    </div>
+
+    <span class="number-page">9</span>
+    <span class="nextprev-btn" data-page="turn-5">
+      <i class="bx bx-chevron-right"></i>
+    </span>
+  </div>
+
+  <!-- halaman 10 -->
+  <div class="page-back">
+    <div class="product-content">
+      <div class="product-box">
+        <div class="img-box">
+          <img src="img/Ayam Krispy McDonald's.webp">
+        </div>
+        <h2 class="product-title">Ayam Krispy McDonald's</h2>
+        <p>Paket HeBat (Hemat Banget) Chicken Burger Deluxe. Burger ayam renyah yang disajikan dengan irisan selada segar dan tomat. Lengkap dengan small french fries dan small drink</p>
+        <div class="price-and-cart">
+        <span class="price">Rp30.000</span>
+         <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+      </div>
+
+            <div class="product-box">
+            <div class="img-box">
+              <img src="img/Ayam Spicy McDonald's.webp">
+              </div>
+                <h2 class="product-title">Ayam Spicy McDonald's</h2>
+                <p>Bubur ayam klasik disajikan dengan seledri dan bawang goreng renyah, tersedia jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp25.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+            <div class="product-box">
+            <div class="img-box">
+              <img src="img/PaNas 1.webp">
+              </div>
+                <h2 class="product-title">PaNas 1</h2>
+                <p>Bubur ayam klasik disajikan dengan seledri dan bawang goreng renyah, tersedia jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp25.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+            <div class="product-box">
+            <div class="img-box">
+              <img src="img/PaNas 2with Fries.webp">
+              </div>
+                <h2 class="product-title">PaNas 2with Fries</h2>
+                <p>Bubur ayam klasik disajikan dengan seledri dan bawang goreng renyah, tersedia jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp25.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+    </div>
+
+    <span class="number-page">10</span>
+    <span class="nextprev-btn back" data-page="turn-5">
+      <i class="bx bx-chevron-left"></i>
+    </span>
+  </div>
+</div>
+
+<div class="book-page page-right" id="turn-6">
+  <!-- halaman 11 -->
+  <div class="page-front">
+    <div class="product-content">
+      <div class="product-box">
+                <div class="img-box">
+                  <img src="img/PaNas 2 with Rice.webp">
+                </div>
+                <h2 class="product-title">PaNas 2 with Rice</h2>
+                <p>2 Panekuk lembut dan hangat berlumur sirup maple dan mentega gurih.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/PaNas Spesial.webp">
+                </div>
+                <h2 class="product-title">PaNas Spesial</h2>
+                <p>otongan kentang gurih yang digoreng keemasan. tersedia jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/PaMer 5.webp">
+                </div>
+                <h2 class="product-title">PaMer 5</h2>
+                <p>Nasi Uduk gurih dengan sambal terasi, scrambled egg, bawang goreng dan makin lengkap dengan suwiran ayam.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+              <div class="product-box">
+                <div class="img-box">
+                  <img src="img/PaMer 7.webp">
+                </div>
+                <h2 class="product-title">PaMer 7</h2>
+                <p>Bubur ayam klasik disajikan dengan seledri dan bawang goreng renyah, tersedia jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp15.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+    </div>
+
+    <span class="number-page">11</span>
+    <span class="nextprev-btn" data-page="turn-6">
+      <i class="bx bx-chevron-right"></i>
+    </span>
+  </div>
+
+  <!-- halaman 12 -->
+  <div class="page-back">
+    <div class="product-content">
+      <div class="product-box">
+        <div class="img-box">
+          <img src="img/Chicken Burger Deluxe.webp">
+        </div>
+        <h2 class="product-title">Chicken Burger Deluxe</h2>
+        <p>Paket HeBat (Hemat Banget) Chicken Burger Deluxe. Burger ayam renyah yang disajikan dengan irisan selada segar dan tomat. Lengkap dengan small french fries dan small drink</p>
+        <div class="price-and-cart">
+        <span class="price">Rp30.000</span>
+         <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+      </div>
+
+            <div class="product-box">
+            <div class="img-box">
+              <img src="img/Chicken Burger.webp">
+              </div>
+                <h2 class="product-title">Chicken Burger</h2>
+                <p>Bubur ayam klasik disajikan dengan seledri dan bawang goreng renyah, tersedia jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp25.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+            <div class="product-box">
+            <div class="img-box">
+              <img src="img/McSpicy™.webp">
+              </div>
+                <h2 class="product-title">McSpicy™</h2>
+                <p>Bubur ayam klasik disajikan dengan seledri dan bawang goreng renyah, tersedia jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp25.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+
+            <div class="product-box">
+            <div class="img-box">
+              <img src="img/PaNas 2with Fries.webp">
+              </div>
+                <h2 class="product-title">PaNas 2with Fries</h2>
+                <p>Bubur ayam klasik disajikan dengan seledri dan bawang goreng renyah, tersedia jam 5-11 pagi.</p>
+                <div class="price-and-cart">
+                  <span class="price">Rp25.000</span>
+                  <i class='bx bx-shopping-bag add-cart' ></i>
+                </div>
+              </div>
+    </div>
+
+    <span class="number-page">12</span>
+    <span class="nextprev-btn back" data-page="turn-6">
+      <i class="bx bx-chevron-left"></i>
+    </span>
+  </div>
+</div>
+        
+
+      </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+    <script src="java.js"></script>
+  </body>
+</html>
